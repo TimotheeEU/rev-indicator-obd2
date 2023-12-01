@@ -1,0 +1,13 @@
+#ifndef REV_INDICATOR_OBD2_CONFIG_H
+#define REV_INDICATOR_OBD2_CONFIG_H
+#include <Arduino.h>
+
+#define LED_PIN 7
+#define NUM_LEDS 25
+#define REV_LEDS 20
+#define SHIFT_LEDS 5
+
+#define MAX_INPUT_VALUE 5000
+#define MIN_INPUT_VALUE 1000
+#define MAX_OUTPUT_VALUE 20
+#endif //REV_INDICATOR_OBD2_CONFIG_H
